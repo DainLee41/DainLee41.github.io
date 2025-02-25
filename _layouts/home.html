@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<header>
+    <h1>{{ site.title }}</h1>
+    {%- if site._config.show_description -%}
+        <p>{{ site.description }}</p>
+    {%-endif-%}
+</header>
+
+{{ content }}
